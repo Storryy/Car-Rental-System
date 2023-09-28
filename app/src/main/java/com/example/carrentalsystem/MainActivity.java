@@ -14,6 +14,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class MainActivity extends AppCompatActivity {
 
     private Button Logout_Button;
+    private Button Hello;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
