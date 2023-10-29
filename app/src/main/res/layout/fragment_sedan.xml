@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hatchback">
+
+    <ImageButton
+        android:id="@+id/ciazImageButton"
+        android:layout_width="214dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="467dp"
+        android:background="@drawable/ciaz"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/cityImageButton"
+        android:layout_width="214dp"
+        android:layout_height="166dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="273dp"
+        android:background="@drawable/city"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/vernaImageButton"
+        android:layout_width="246dp"
+        android:layout_height="134dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="79dp"
+        android:background="@drawable/verna"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="437dp"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:text="Maruti Suzuki Ciaz"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="251dp"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:text="Honda City"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="57dp"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:text="Hyundai Verna"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+

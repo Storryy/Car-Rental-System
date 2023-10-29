@@ -24,10 +24,7 @@ public class RegisterActivity extends AppCompatActivity {
     private EditText Register_Email;
     private EditText Register_Password;
     private Button Register;
-
     private FirebaseAuth auth;
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".hatchback">
+
+    <ImageButton
+        android:id="@+id/swiftImageButton"
+        android:layout_width="214dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="467dp"
+        android:background="@drawable/swift"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/wagonrImageButton"
+        android:layout_width="214dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="273dp"
+        android:background="@drawable/wagonr"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY" />
+
+    <ImageButton
+        android:id="@+id/i20ImageButton"
+        android:layout_width="214dp"
+        android:layout_height="137dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/i20"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="150dp"
+        android:layout_height="37dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="437dp"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:text="Maruti Suzuki Swift"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="165dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="237dp"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:text="Maruti Suzuki WagonR"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginBottom="57dp"
+        android:cropToPadding="false"
+        android:paddingLeft="10dp"
+        android:scaleType="fitXY"
+        android:text="Hyundai i20"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
+
