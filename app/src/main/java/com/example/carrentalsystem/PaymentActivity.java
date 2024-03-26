@@ -49,7 +49,7 @@ public class PaymentActivity extends AppCompatActivity implements PaymentResultL
          * Instantiate Checkout
          */
         Checkout checkout = new Checkout();
-        checkout.setKeyID("rzp_test_xwUzdSjJvEp8oz");
+        checkout.setKeyID("insert KeyID here");
         /**
          * Set your logo here
          */
